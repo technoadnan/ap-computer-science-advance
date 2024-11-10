@@ -10,6 +10,8 @@ public class writeFollowingExp {
         s = sc.nextInt();
         double equation = (Math.pow(v,2) - Math.pow(u,2)) / 2*a*s;
         System.out.println(equation);
+        sc.close();
+        
 
     }
 }
