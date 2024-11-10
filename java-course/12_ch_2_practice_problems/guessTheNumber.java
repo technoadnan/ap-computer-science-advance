@@ -15,7 +15,7 @@ public class guessTheNumber {
         else {
             System.out.println("Your number is correct");
         }
-
+        sc.close();
 
 
     }
