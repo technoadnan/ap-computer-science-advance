@@ -1,7 +1,9 @@
-public class introStrings {
+public class IntroStrings {
    public static void main(String[] args) {
       String name = new String();
       // System.out.println(name);
+
+      String a = new String("hello"); // another way to declare string 
 
       // String name = "Adnan"; // err
       // Strings are immutable 

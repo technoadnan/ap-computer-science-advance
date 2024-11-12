@@ -1,6 +1,6 @@
 import java.lang.Math;
 import java.util.Scanner;
-public class writeFollowingExp {
+public class WriteFollowingExp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int v,u,a,s;

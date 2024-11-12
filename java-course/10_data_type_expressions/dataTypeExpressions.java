@@ -1,4 +1,4 @@
-public class dataTypeExpressions {
+public class DataTypeExpressions {
 
    public static void main(String[] args) {
       /* byte x = 5;
