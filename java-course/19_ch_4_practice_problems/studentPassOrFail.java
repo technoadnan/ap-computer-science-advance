@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class studentPassOrFail {
+public class StudentPassOrFail {
 
    public static void main(String[] args) {
       // sou
