@@ -1,4 +1,4 @@
-public class detectDoubleTripleSpace {
+public class DetectDoubleTripleSpace {
    public static void main(String[] args) {
       String name = "name ";
       System.out.println(name.indexOf("   ")); // 3 space

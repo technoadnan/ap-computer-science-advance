@@ -1,4 +1,4 @@
-public class ifElseStatements {
+public class IfElseStatements {
    public static void main(String[] args) {
       int age = 45;
       if (age > 50) {
