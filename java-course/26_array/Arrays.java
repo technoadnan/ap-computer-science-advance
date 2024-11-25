@@ -1,5 +1,3 @@
-package java-course.26_array;
-
 public class Arrays {
    public static void main(String[] args) {
       int[] marks; // declaration
@@ -12,6 +10,7 @@ public class Arrays {
       // each int takes 4 bytes so 4*size of array 
    }
    // declaration
+
 
    
 } 
