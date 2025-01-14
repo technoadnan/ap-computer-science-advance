@@ -5,18 +5,18 @@
 
 public class CylinderMain {
    public static void main(String[] args) {
-      Cylinder cy = new Cylinder();
+      Cylinder cy = new Cylinder(0, 0); // Pass the required arguments to the constructor
       cy.setRadius(34);
       cy.setHeight(34);
       int a = cy.CalculateSurfaceArea(2);
       System.out.println(a);
    }
-
-
 }
 
 
 class Cylinder {
+
+   
    private int radius;
    private int height;
 
@@ -24,6 +24,7 @@ class Cylinder {
       this.height = height;
       this.radius = radius;
    }
+
    
    public void setRadius(int n){
       this.radius = n;
