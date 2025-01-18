@@ -8,6 +8,8 @@ class Base1{
 }
 
 class Derived1 extends Base1{
+   // base will run at first then 
+   // derived 
    Derived1(){
       //super(0);
       System.out.println("I am a derived class constructor");
@@ -21,6 +23,7 @@ class Derived1 extends Base1{
 
 public class ConstructorInheritence {
    public static void main(String[] args) {
+
       Derived1 obj1 = new Derived1();
       Derived1 obj2 = new Derived1(10, 20);
    }
